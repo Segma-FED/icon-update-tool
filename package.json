@@ -1,0 +1,28 @@
+{
+    "name": "@segma/icon-update-tool",
+    "version": "0.1.0",
+    "description": "a tool for updating icons in segma-ui framework",
+    "main": "src/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "segma",
+        "segma-ui",
+        "icon"
+    ],
+    "author": "Segma-FED",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.15.0",
+        "eslint-config-alloy": "^3.8.2"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "extract-zip": "^2.0.1",
+        "fs-extra": "^9.0.1",
+        "node-fetch": "^2.6.1"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=1850872&ctoken=yLVXFFGeWQUZj4GXzSIUfDp7",
+    "params": {
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+            "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "if-modified-since": "Wed, 09 Dec 2020 03:20:22 GMT",
+            "if-none-match": "W/\"255f7-17645839d92\"",
+            "sec-fetch-dest": "document",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-site": "same-origin",
+            "sec-fetch-user": "?1",
+            "upgrade-insecure-requests": "1",
+            "cookie": "cna=ZH6WFTqsOTMCAXdWIDT1EWt5; EGG_SESS_ICONFONT=U8AXvqwdm-42-umGXGwgKq_Emj2wuVCkA87TjZ3dn6xm2T4whio3sIKoy4kjkuBSusLMQ-0MhcjWBE1FwhfGmLoJPlWKxBTqlWxtg8B7bbRJDdx2EXpKjikSrgx09YVFNoxb7nHfqWGBc1vhw0opS7RNwjFsFrmP8p3klemXRMK4hHROGErf_8DmZO4XVJR7ZffippKPUIdUpT8CEqBymlKMVRhgqhx36ifAQZOcQ8KZbPbaUKrQy2caXFeyOvHsIJAM0yMWemgS-uEWjp_vRfdgZeHR02t8jcnzdagZyGjH6CbU2iBrxW_5rhnnzpN0Vd04-SXXY8YsnhmRrGT45WZkSAeaDHW4tN_QAN_m1N1gbpmKbwQoJVXRVO4wFcUd_UyWz1jwy8A_ZtAP4-eC4lvuHyoLhQmmWNyEFt3k7wiRjJQnTcHNXyI6oxYURYBdSdwS6ezY-T6Bao3x2yXwDHXlqn30R4s9d-fwQ3DJsCuXUQOt-StOK-SuBIL3lSjsd14Q9piGb_2zod6I9d7m7NMG-2zHHb6piwKqiDwKMi5ZRyyUn_xUuiHUiuXyqxEAxBIQ2n1mQ2yIwRP7gESXsKQefmKaOeRVcAw1mh1bZsa_ny1JgyViqNZvRq8aoXhkNVvc7yPVbexBpqxlIE4PLRNCagQg0ys_M13vLEJPgq-7h3PQPsUcjqW2QpRZiuJb2tkArKX2ReSXtcGlR7pLJGGR9DefcoouU7DD7FlRC96B3tRZtONGR7xorHNan0iEjSajo4uEMjwPxEs9lkRoygDaQbYVO1Ng6mKRPdvcXwACHCSViK5TiEdRN2mTZyOELOHoPRUMLh7471iqKhvl8X38uiDZ3JIlheP-SH3g8Xmk5cKwhcbeh1NeLC4LLQ47Uy1pXXc7Y1KRQ5926HOwLSBG-C9mbpEJKmyzvOlPk7rRccwCW1HwieHl63IG_SMXOrDCF18tNJmrCc2CO00AfBdEUKcuruYYidCXmbG8eA0wpR8BhLJ2rNx-a43EJ8TEK9iEbGDqGy0Fj_F1_XpJS7dhKcEKLzWJJ1j83GfcdyCvZMB15rPvRldA8MVomKgMw6nUl9_OYHpeUEUT-uxp0KgW1WAry2cwg632cN--0sg=; locale=zh-cn; trace=AQAAAPQb0XU9OQIA6EZUd3H8YHYOVfqg; ctoken=yLVXFFGeWQUZj4GXzSIUfDp7; u=4611752; u.sig=UU4noRWCU3A4nDBSlLaQ02mW122ZCLgS2HS1-KObowY; xlly_s=1; isg=BN_f4Y7p_EZ-t_qXDcvWmS-8bjNpRDPmDIXb0HEt2w7VAPyCeRZZNxqWwpB-mAte"
+        },
+        "referrer": "https://www.iconfont.cn/manage/index?spm=a313x.7781069.1998910419.12&manage_type=myprojects&projectId=1850872&keyword=&project_type=&page=",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "body": null,
+        "method": "GET",
+        "mode": "cors"
+    },
+    "dir": "./temp",
+    "fileName": "icon.zip"
+}
