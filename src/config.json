@@ -20,5 +20,15 @@
         "mode": "cors"
     },
     "dir": "./temp",
-    "fileName": "icon.zip"
+    "fileName": "icon.zip",
+    "repository": {
+        "name": "@segma/segma-ui",
+        "branch": "dev",
+        "dir": "./src/assets/css/segma_icon_font",
+        "autoStash": false,
+        "commitMessage": "feat(icon): update icon"
+    },
+    "build": "lib",
+    "buildDir": "./lib",
+    "npm": "http://npm.segma.tech/"
 }

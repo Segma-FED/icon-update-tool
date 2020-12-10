@@ -6,7 +6,7 @@ const fs = require('fs-extra');
 const { dir, fileName } = require('./config.json');
 
 async function extract() {
-    log.info('extract start');
+    log.info('[extract] start');
     await zip(path.resolve(dir, fileName), {
         dir: path.resolve(dir)
     });
@@ -17,7 +17,7 @@ async function extract() {
     if (!stat.isDirectory()) {
         throw new Error('invalid icon file');
     }
-    log.success('extract success');
+    log.success('[extract] end');
     return entry;
 }
 
