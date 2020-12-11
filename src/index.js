@@ -5,7 +5,7 @@ const extract = require('./extract');
 const repo = require('./repo');
 const clean = require('./clean');
 const publish = require('./publish');
-
+const log = require('./log');
 async function update() {
     try {
         await download();
@@ -15,6 +15,7 @@ async function update() {
         await publish();
     } catch (error) {
         // todo
+        log.error(error);
     } finally {
         await clean();
     }

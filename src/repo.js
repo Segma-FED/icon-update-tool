@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const log = require('./log');
 const git = require('./git');
 const { ERRORS } = require('./constants');
-const { repository, dir } = require('./config.json');
+const { repository, dir } = require('./config');
 const pkg = require(path.resolve('package.json'));
 
 async function commit(entry) {

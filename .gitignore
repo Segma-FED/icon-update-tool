@@ -26,3 +26,4 @@ yarn-error.log*
 #sonar file
 .scannerwork
 
+icon-update.json

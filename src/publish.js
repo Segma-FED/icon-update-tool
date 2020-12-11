@@ -1,4 +1,4 @@
-const config = require('./config.json');
+const config = require('./config');
 const log = require('./log');
 const fs = require('fs-extra');
 const path = require('path');
@@ -35,7 +35,11 @@ async function publish() {
     const { data: oldRegistry } = await run([npm, 'config', 'get', 'registry']);
     await run([npm, 'config', 'set', 'registry', config.npm]);
     try {
-        await run([npm, 'publish', '--dry-run']);
+        const params = [npm, 'publish'];
+        if (config.dry) {
+            params.push('--dry-run');
+        }
+        await run(params);
     } catch (error) {
         // todo
     } finally {

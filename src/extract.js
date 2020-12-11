@@ -3,7 +3,7 @@ const zip = require('extract-zip');
 const log = require('./log');
 const fs = require('fs-extra');
 
-const { dir, fileName } = require('./config.json');
+const { dir, fileName } = require('./config');
 
 async function extract() {
     log.info('[extract] start');

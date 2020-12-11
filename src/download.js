@@ -4,13 +4,13 @@ const path = require('path');
 const log = require('./log');
 const { sleep } = require('./common');
 
-const { url, params, dir, fileName } = require('./config.json');
+const { request, dir, fileName } = require('./config');
 
 async function download() {
     try {
         await init();
         log.info('[download icon] start');
-        let result = await fetch(url, params);
+        let result = await fetch(request.url, request.params);
         const stream = fs.createWriteStream(path.resolve(dir, fileName));
         result.body.pipe(stream);
         await new Promise((resolve, reject) => {
@@ -34,6 +34,7 @@ async function init() {
     // 避免前后2次文件操作过快导致报错
     await sleep(100);
     await fs.ensureDir(place);
+
     log.success('[init workplace] end');
 }
 
