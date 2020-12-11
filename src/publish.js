@@ -40,6 +40,10 @@ async function publish() {
             params.push('--dry-run');
         }
         await run(params);
+
+        if (!config.dry) {
+            await git.push();
+        }
     } catch (error) {
         // todo
     } finally {

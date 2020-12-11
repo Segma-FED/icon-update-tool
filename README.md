@@ -47,6 +47,7 @@ https://github.com/Segma-FED/icon-update-tool
     // 需要发布的npm源（一般不用修改）
     "npm": "http://npm.segma.tech/",
     // 同 npm publish 的 --dry-run 参数
+    // 为true时，在发布完成时会同时将本地的提交推送到服务器
     "dry": false
 }
 ```

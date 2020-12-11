@@ -25,7 +25,8 @@ const defaultConfig = {
     buildDir: './lib',
     // 需要发布的npm源（一般不用修改）
     npm: 'http://npm.segma.tech/',
-    // 同 npm publish 的 --dry-run 参数
+    // 同 npm publish 的 --dry-run 参数，可用于测试自动化流程
+    // 为true时，在发布完成时会同时将本地的提交推送到服务器
     dry: false
 };
 
