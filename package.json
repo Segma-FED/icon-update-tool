@@ -1,6 +1,6 @@
 {
     "name": "@segma/icon-update-tool",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "a tool for updating icons in segma-ui framework",
     "main": "src/index.js",
     "bin": {
